@@ -51,6 +51,14 @@ if( amysAge > brittanisAge){
 
 //CODE HERE
 
+if( amysBirthYear < brittanisBirthYear){
+  console.log(`Amy is older`)
+} else if( brittanisBirthYear < amysBirthYear){
+  console.log(`Brittani is older`)
+} else {
+  console,log(`they are the same age`)
+}
+
 ////////// PROBLEM 4 //////////
 
 let temperature = 55;
