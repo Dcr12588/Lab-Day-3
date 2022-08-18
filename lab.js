@@ -71,11 +71,13 @@ let rain = true;
 
 //CODE HERE
 
-// if( temperature >= 80, rain = true){
-// console.log(`One should wear a t-shirt and take an umbrella`)
-// } else if(temperature >= 60,  80, rain){
-//   console.log(`One should wear a rain jacket`)
-// }
+if(temperature >= 80, rain = true){
+console.log(`One should wear a t-shirt and take an umbrella`)
+} else if(temperature >= 60, temperature <= 80, rain){
+  console.log(`One should wear a rain jacket`)
+} else if(temperature <= 60){
+  console.log(`one should wear a jacket and carry an umbrella`)
+}
 
 ////////// PROBLEM 5 //////////
 
@@ -85,6 +87,10 @@ let rain = true;
 
 //CODE HERE
 
+for(let i = 0; i < 10; i++){
+  console.log(`hello`)
+}
+
 ////////// PROBLEM 6 //////////
 
 /*
@@ -92,6 +98,8 @@ let rain = true;
 */
 
 //CODE HERE
+
+
 
 ////////// PROBLEM 7 //////////
 
@@ -124,7 +132,7 @@ let passingScore = 7;
 
 //CODE HERE
 
-let changeMyMind = false
+let changeMyMind = true
 
 if(changeMyMind === true){
   changeMyMind = false
